@@ -113,7 +113,7 @@ import (
 )
 
 const (
-	AccountAddressPrefix = "cosmos"
+	AccountAddressPrefix = "rupxtn"
 	Name                 = "rupx-tn"
 )
 
