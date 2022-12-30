@@ -1,0 +1,12 @@
+syntax = "proto3";
+package rupxtn.rupxtn;
+
+import "gogoproto/gogo.proto";
+import "rupxtn/rupxtn/params.proto";
+
+option go_package = "rupx-tn/x/rupxtn/types";
+
+// GenesisState defines the rupxtn module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}
